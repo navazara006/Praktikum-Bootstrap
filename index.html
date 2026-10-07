@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary px-3 shadow-lg ms-"
+        style="background-color: #fffefd !important;">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <div id="home" class="bg-info bg-gradient text-white text-center py-5">
+        <div class="container">
+            <span class="badge text-bg-light">Semester 3</span>
+            <h1>Hai, saya Nava Az Zahra!</h1>
+            <p>Mahasiswa Pendidikan Sistem dan Teknologi Informasi</p>
+            <span class="badge rounded-pill text-bg-secondary">Lihat Profil saya</span>
+        </div>
+    </div>
+
+    <!-- Skill Section -->
+    <div id="skill" class="container py-5">
+        <h2 class="text-center mb-3">Kemampuan saya</h2>
+        <div class="row g-4">
+            <!-- card 1 -->
+            <div class="col-md-4">
+                <div class="card border-primary border-2 shadow-lg">
+                    <div class="card-body">
+                        <h5 class="card-title">HTML</h5>
+                        <p class="card-text">Dasar dasar membangun struktur halaman web.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col-md-4">
+                <div class="card border-primary border-2 shadow-lg">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS</h5>
+                        <p class="card-text">Dasar dasar membangun tampilan halaman web.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="col-md-4">
+                <div class="card border-primary border-2 shadow-lg">
+                    <div class="card-body">
+                        <h5 class="card-title">JavaScript</h5>
+                        <p class="card-text">Dasar dasar pemrograman JavaScript untuk interaktivitas halaman
+                            web.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Alert -->
+            <div class="alert alert-dark" role="alert">
+                Semuanya aku pelajari di mata kuliah pemrograman dasar!
+            </div>
+
+            <!-- Kontak -->
+            <div id="kontak" clas="bg-light py-5">
+                <div class="container">
+                    <h2 class="text-center mb-4">Kontak Saya</h2>
+                    <form>
+                        <!-- Formulir -->
+                         <form class="bg-white p-4 rounded shadow-sm" style="max-width: 500px">
+                        <!-- input nama -->
+                        <div class="mb-3">
+                            <label for="input-nama" class="form-label">Nama</label>
+                            <input type="text" class="form-control" id="input-nama"
+                                placeholder="Masukkan nama Anda">
+                        </div>
+                        <!-- input pesan -->
+                        <div class="mb-3">
+                            <label for="input-pesan" class="form-label">Pesan</label>
+                            <textarea class="form-control" id="input-pesan" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+            <!-- Footer -->
+             <footer class="bg-dark text-white text-center py-4">
+                <small>&copy; 2026 - Praktikum Promnet - Pertemuan 6</small>
+                </footer>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+                crossorigin="anonymous"></script>
+            <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+</body>
+
+</html>
